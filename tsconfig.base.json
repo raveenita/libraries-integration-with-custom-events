@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@org/bar": ["packages/bar/src/index.ts"],
-      "@org/foo": ["packages/foo/src/index.ts"]
+      "bar": ["packages/bar/src/index.ts"],
+      "foo": ["packages/foo/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
